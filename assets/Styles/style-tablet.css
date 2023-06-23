@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+
+    section, header {
+        padding: 28px 32px;
+        width: 100vw;
+
+
+    }
+
+    #previa {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    #previa-container {
+        width: 57vw;
+    }
+
+    #previa-container .titulo {
+        text-align: justify;
+    }
+
+    #previa-avatar {
+        width: 196px;
+        height: 196px;
+    }
+
+    .texto-secundario {
+        font-size: 1.6rem;
+    }
+
+    .grid-container {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .grid-box {
+        flex-basis: 20vw;
+        flex-grow: 1;
+    }
+
+    .formacao-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .formacao-box{
+        width: 25vw;
+    }
+
+    .formacao-box-img {
+        width: 25vw;
+    }
+
+    .formacao-text-box {
+        width: 25vw;
+    }
+
+    .projetos-img {
+        height: 320px;
+    }
+
+    .projetos-score {
+        top: -16.5vh;
+        left: 70vw;
+        height: 170px;
+    }
+
+    form {
+        gap: 16px
+    }
+
+    .contato-form h2, .contato-form p {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .contato-form p {
+        margin: 12px auto;
+        font-size: 1.6rem;
+    }
+
+    .btn-default {
+        font-size: 1.6rem;
+    }
+
+    footer p {
+        font-size: 1.6rem;
+    }
+}
