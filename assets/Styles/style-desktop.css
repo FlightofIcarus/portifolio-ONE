@@ -1,0 +1,202 @@
+@media screen and (min-width: 992px) {
+   
+    html {
+        scroll-behavior: smooth;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        padding-left: 64px;
+        padding-right: 64px;
+        z-index: 2;
+    }
+
+    .nav-link {
+        display: block;
+        margin-right: 32px;
+    }
+
+    .nav-link, .contato-link {
+        font-size: 1.6rem;
+    }
+
+    .nav-link:hover, .nav-link:visited {
+        font-size: 1.6rem;
+        display: block;
+        margin-right: 32px;
+    }
+
+    .contato-link:hover, .contato-link:visited {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding-top: 158px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    #previa, #sobre, #skills, #hobbies, #formacao {
+        height: 100vh;
+    }
+
+    #contato {
+        height: calc(100vh - 60px);
+     }
+
+   .titulo {
+        font-size: 2.8rem;
+    }
+
+    .principal {
+        font-size: 1.8rem;
+    }
+
+    .secundario {
+        font-size: 5.2rem;
+    }
+
+    #previa-container .texto-secundario {
+        margin-top: 10vw;
+        margin-bottom: 4vw;
+        font-size: 3rem;
+    }
+
+    .texto-secundario {
+        font-size: 3rem;
+        margin-top: 10vw;
+        line-height: 4.2rem;
+    }
+
+    #previa-avatar {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .social-links, .social-links:hover, .subtitulo {
+        font-size: 2rem; 
+        margin-right: 86px;
+    
+    }
+
+    #sobre img {
+        margin-top: 8vw;
+        width: 240px;
+    }
+
+    .grid-container {
+        margin-top: 10vw;
+    }
+
+    .grid-box {
+        height: 12vh;
+        padding-top: 10px;
+    }
+
+    svg {
+        width: 6rem;
+        
+    }
+
+    i {
+        font-size: 6rem;
+    }
+
+      .formacao-container {
+        margin-top: 10vw;
+    }
+
+    .formacao-box {
+        height: 400px;
+        
+    }
+
+    .formacao-box-img {
+        height: 400px;
+        
+    }
+
+    .formacao-box-img img{
+        width: 200px;
+    }
+
+    .formacao-text-box h3, .projetos-textos h3 {
+        font-size: 3rem;
+        margin-top: 4vw;
+    }
+
+    .formacao-text-box p {
+      font-size: 2rem;  
+    }
+
+    .projetos-container {
+        margin-top: 6vw;
+    }
+
+    .projetos-textos {
+        margin-top: 0;
+        align-self: center;
+    }
+
+    .projetos-box {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-bottom: 64px;
+    }
+
+    .reverso {
+        flex-direction: row-reverse;
+    }
+
+    .projetos-img {
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .projetos-score {
+        width: 20vh;
+        height: 25vh;
+        position: static;    
+    }
+
+    #contato {
+        display: flex;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .contato-form {
+        width: 50vw;
+    }
+
+    .contato-form .secundario {
+        width: 50vw;
+    }
+
+    .contato-form p {
+        margin-left: 5vw;
+    }
+
+   form label {
+    font-size: 1.6rem;
+   }
+
+    .contato-bg {
+        display: block;
+        background-image: url(../images/bgcontato.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50vw;
+    }
+
+    #nome, #email, #assunto, #mensagem {
+        width: 40vw;
+    }
+
+    #nome:focus + label, #email:focus + label, #assunto:focus + label, #mensagem:focus + label {
+        font-size: 1.2rem;
+    }
+
+}

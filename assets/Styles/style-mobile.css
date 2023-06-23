@@ -18,6 +18,7 @@
     --azul-hover: #5595e9d8;
     --branco-padrao: #fff;    
     --bg-geral: #F5F5F5;
+    --bg-header: #f5f5f5ec;
     --bg-azul: #5595e927;
  }
 
@@ -35,6 +36,7 @@ header,ul {
 
 header {
     padding: 16px 16px;
+    background-color: var(--bg-header);
 }
 
 
@@ -274,7 +276,7 @@ form textarea {
     resize: none;
     width: 80vw;
     height: 200px;
-    padding: 12px;
+    padding: 12px 0 12px 26px;
     outline: none;
 }
 
@@ -294,6 +296,10 @@ form textarea {
     opacity: 40%;
     color: var(--azul-hover);
     transition: 1s ease-in-out;
+}
+
+#mensagem:focus {
+    padding-top: 36px;
 }
 
 
