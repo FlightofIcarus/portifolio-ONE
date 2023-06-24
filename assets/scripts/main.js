@@ -3,24 +3,24 @@ const nome = document.querySelector("#nome");
 const email = document.querySelector("#email");
 const assunto = document.querySelector("#assunto");
 const mensagem = document.querySelector("#mensagem");
-const label = document.querySelector(".contato-label")
+const label = document.querySelectorAll(".contato-label")
 
 function fixeLabel() {
     if(nome.value != "") {
-        label.setAttribute("class", "label-fixed")
+        label[0].setAttribute("class", "label-fixed")
         nome.setAttribute("class", "input-fixed")
     }
     if(email.value != "") {
-        label.setAttribute("class", "label-fixed")
+        label[1].setAttribute("class", "label-fixed")
         email.setAttribute("class", "input-fixed")
     }
     if(assunto.value != "") {
-        label.setAttribute("class", "label-fixed")
+        label[2].setAttribute("class", "label-fixed")
         assunto.setAttribute("class", "input-fixed")
     }
     if(mensagem.value != "") {
-        label.setAttribute("class", "label-fixed")
-        mensagem.setAttribute("class", "input-fixed")
+        label[3].setAttribute("class", "label-fixed")
+        mensagem.setAttribute("class", "mensagem-fixed")
     }
 }
 

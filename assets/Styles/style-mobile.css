@@ -229,45 +229,45 @@ form {
     align-items: center;
 }
 
-form input[type=text], form input[type=email] {
+.nome, .email, .assunto {
     width: 80vw;
     height: 44px;
     line-height: 46px;
     padding-top: 20px;
 }
 
-form input[type=text]:focus, form input[type=email]:focus {
+.nome:focus, .email:focus, .assunto:focus {
     border-bottom: 2px solid var(--azul-padrao);
     outline: none;
 }
 
-#nome {
+.nome {
     background: var(--branco-padrao) url(../images/person.svg) no-repeat 20px;
     background-position-x: 6px;
     padding-left: 26px;
     font-size: 1.5rem;
 }
 
-#email {
+.email {
     background: var(--branco-padrao) url(../images/envelope-at.svg) no-repeat 20px;
     background-position-x: 6px;
     padding-left: 26px;
     font-size: 1.5rem;
 }
 
-#assunto {
+.assunto {
     background: var(--branco-padrao) url(../images/exclamation-triangle.svg) no-repeat 20px;
     background-position-x: 6px;
     padding-left: 26px;
     font-size: 1.5rem;
 }
 
-#nome:focus, #email:focus, #assunto:focus {
+.nome:focus, .email:focus, .assunto:focus {
     height: 64px;
     background-position-y: 36px;
 }
 
-#email::placeholder, #assunto::placeholder {
+.email::placeholder, .assunto::placeholder {
     position: relative;
     top: -8px;
 }
@@ -290,7 +290,7 @@ form textarea {
     left: 28px;
 }
 
-#nome:focus + label, #email:focus + label, #assunto:focus + label, #mensagem:focus + label {
+.nome:focus + label, .email:focus + label, .assunto:focus + label, .mensagem:focus + label {
     visibility: visible;
     font-size: 0.8rem;
     opacity: 40%;
@@ -298,7 +298,7 @@ form textarea {
     transition: 1s ease-in-out;
 }
 
-#mensagem:focus {
+.mensagem:focus {
     padding-top: 36px;
 }
 
@@ -324,4 +324,14 @@ color: var(--azul-hover);
 .input-fixed{
     height: 64px;
     background-position-y: 36px;
+    padding-left: 26px;
+    font-size: 1.5rem;
+}
+
+.mensagem-fixed {
+    resize: none;
+    width: 80vw;
+    height: 200px;
+    padding: 26px 0 12px 26px;
+    outline: none;
 }
