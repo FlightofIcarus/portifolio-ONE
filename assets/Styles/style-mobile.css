@@ -302,8 +302,26 @@ form textarea {
     padding-top: 36px;
 }
 
-
-footer {
+footer p{
     text-align: center;
     padding: 8px;
+}
+
+.erro-campo {
+    border-bottom: 2px solid red;
+}
+
+.label-fixed{
+position: absolute;   
+top: 14px;
+left: 28px;
+visibility: visible;
+font-size: 0.8rem;
+opacity: 40%;
+color: var(--azul-hover);
+}
+
+.input-fixed{
+    height: 64px;
+    background-position-y: 36px;
 }
